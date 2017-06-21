@@ -1,4 +1,4 @@
-<?php  
+﻿<?php  
 require_once ("lib/nusoap.php");  
 /* 
 通过 WSDL 调用 WebService 
@@ -20,4 +20,5 @@ if (! $err = $client->getError ()) {
 } else {  
     echo " 调用出错： ", $err;  
 }  
+//第一次修改22：41
 ?> 
